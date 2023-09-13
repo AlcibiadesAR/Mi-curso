@@ -1,0 +1,39 @@
+{
+    "marca":"Star Wars",
+    "productos":[ 
+        {
+            "Nombre": "Luke Skywalker",
+            "Precio" : 10,
+            "Stock" : 5
+        },
+        {
+            "Nombre": "Scout Trooper",
+            "Precio" : 10,
+            "Stock" : 5
+        },
+        {
+            "Nombre": "Boba Fett",
+            "Precio" : 10,
+            "Stock" : 5
+        },{
+            "Nombre": "Dark Trooper",
+            "Precio" : 10,
+            "Stock" : 5
+        },
+        {
+            "Nombre": "Kessel Run",
+            "Precio" : 10,
+            "Stock" : 5
+        },
+        {
+            "Nombre": "Jedi",
+            "Precio" : 10,
+            "Stock" : 5
+        },
+        {
+            "Nombre": "Ahsoka Tano",
+            "Precio" : 10,
+            "Stock" : 5
+        }
+    ]
+}

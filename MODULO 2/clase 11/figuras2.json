@@ -1,0 +1,40 @@
+{ "marca":"Bandai",
+    "productos": [
+    {
+        "Nombre": "Gamora",
+        "Precio" : 10,
+        "Stock" : 5
+    },
+    {
+        "Nombre": "Hulk",
+        "Precio" : 20,
+        "Stock" : 3
+    },
+    {
+        "Nombre": "Thor",
+        "Precio" : 20,
+        "Stock" : 3
+    },
+    {
+        "Marca" : "Bandai:",
+        "Nombre": "Vegeta",
+        "Precio" : 20,
+        "Stock" : 3
+    },
+    {
+        "Nombre": "Sailor Pluto",
+        "Precio" : 10,
+        "Stock" : 5
+    },
+    {
+        "Nombre": "Sailor Saturn",
+        "Precio" : 10,
+        "Stock" : 5
+    },
+    {
+        "Nombre": "Wonder Woman",
+        "Precio" : 20,
+        "Stock" : 4
+    }
+]
+}

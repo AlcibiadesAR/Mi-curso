@@ -1,0 +1,39 @@
+{ "marca":"Hot Toys",
+    "productos": [
+    {
+        "Nombre": "Spider-Man",
+        "Precio" : 20,
+        "Stock" : 3
+    },
+    {
+        "Nombre": "Hellboy",
+        "Precio" : 10,
+        "Stock" : 5
+    },
+    {
+        "Nombre": "Tony Stark",
+        "Precio" : 20,
+        "Stock" : 3
+    },
+    {
+        "Nombre": "Black Panther",
+        "Precio" : 20,
+        "Stock" : 3
+    },
+    {
+        "Nombre": "Batman",
+        "Precio" : 20,
+        "Stock" : 4
+    },
+    {
+        "Nombre": "Captain America",
+        "Precio" : 20,
+        "Stock" : 4
+    },
+    {
+        "Nombre": "Superman",
+        "Precio" : 20,
+        "Stock" : 4
+    }
+]
+}
