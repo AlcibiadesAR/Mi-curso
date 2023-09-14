@@ -7,7 +7,7 @@ let indicesAcceso = [0,1,2,3,4,5];
 
 for (let i = 0; i < indicesAcceso.length; i++) {
   let indiceActual = indicesAcceso[i];
-  console.log("Elemento en el índice ${indiceActual},: " + electrodomésticos[indiceActual]);
+  console.log(`Elemento en el índice ${indiceActual},:` +" "+ electrodomésticos[indiceActual]);
 }
 
 // Extraer el primer elemento del array y agregarlo al final del mismo.
