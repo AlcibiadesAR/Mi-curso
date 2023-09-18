@@ -4,5 +4,16 @@
 }
 body{
     background-color: black;
-    color: white
+    color: white;
+    font-size: 13px;
+    font-family: sans-serif
+}
+.p1 strong{
+    text-align: justify;
+}
+.p2 strong{
+    text-align: justify;
+}
+strong{
+    color:aqua
 }
