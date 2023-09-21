@@ -17,3 +17,50 @@ body{
 strong{
     color:aqua
 }
+
+p strong{
+    background-color: white;
+    color:orangered
+}
+
+.p2{
+    color:aqua
+}
+
+p em{
+    color: white;
+    font-style: italic;
+    font-size: 15px;
+}
+
+body{
+    background-color: white;
+}
+.contenedor1{
+    width: 90%;
+    background-color: red;
+    color: white;
+    border: solid 5px black;
+    padding: 20px
+}
+.contenedor2{
+    width: 90%;
+    background-color: blue;
+    color: white;
+    border: solid 5px green;
+    padding: 20px
+}
+.contenedor3{
+    background-color: green;
+    color: white;
+    border: solid 5px black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.contenedor4{
+    background-color: red;
+    color: white;
+    border: solid 5px black;
+    padding: 20px;
+    box-sizing: border-box
+}
