@@ -1,0 +1,47 @@
+body{
+    background-color: white;
+}
+.contenedor1{
+    width: 80%;
+    background-color: red;
+    color: white;
+    border: solid 5px black;
+    padding: 15px;
+    margin: auto
+}
+.contenedor2{
+    width: 80%;
+    background-color: blue;
+    color: white;
+    border: solid 5px green;
+    padding: 15px;
+    margin: auto;
+}
+.contenedor3{
+    background-color: green;
+    color: white;
+    border: solid 5px black;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.contenedor4{
+    background-color: red;
+    color: white;
+    border: solid 5px black;
+    padding: 15px;
+    box-sizing: border-box
+}
+
+@media (max-width: 560px){
+    .contenedor1{
+        background-color: aqua;
+        color:black; 
+}
+    }
+
+@media (min-width: 560px){
+        .contenedor2{
+            background-color: green;
+            color:white; 
+    }
+        }
