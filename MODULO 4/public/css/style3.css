@@ -1,89 +1,6 @@
 * {
     box-sizing: border-box;
 }
-
-body{
-    font-family: roboto;
-    color:black
-}
-
-.main-header{
-    background-color: yellow;
-    padding: 20px
-}
-
-.imagen{
-    width: 200px;
-    height: 100px;
-}
-.hamburguer-buttom{
-    background-color: #03264c;
-    color: white;
-    display: block;
-    max-width: 50px;
-    padding: 15px 0;
-    border-radius: 8px;
-    text-align: center;
-    font-size: 10px;
-    margin: auto;
-}
-
-.copy-header{
-    font-weight: 400;
-    text-align: center;
-}
-
-.main-header-bottom-.imagen{
-    width: 230px;}
-
-body{
-    background-color: white;
-}
-.contenedor1{
-    width: 80%;
-    background-color: red;
-    color: white;
-    border: solid 5px black;
-    padding: 15px;
-    margin: auto
-}
-.contenedor2{
-    width: 80%;
-    background-color: blue;
-    color: white;
-    border: solid 5px green;
-    padding: 15px;
-    margin: auto;
-}
-.contenedor3{
-    background-color: green;
-    color: white;
-    border: solid 5px black;
-    padding: 15px;
-    box-sizing: border-box;
-}
-.contenedor4{
-    background-color: red;
-    color: white;
-    border: solid 5px black;
-    padding: 15px;
-    box-sizing: border-box
-}
-
-@media (max-width: 560px){
-    .contenedor1{
-        background-color: aqua;
-        color:black; 
-}
-    }
-
-@media (min-width: 560px){
-        .contenedor2{
-            background-color: green;
-            color:white; 
-    }
-        }
-
 body{
     font-size: 'roboto', sans-serif;
 }
@@ -132,4 +49,9 @@ body{
     display: inline-block;
     padding: 5px 0;
     font-size: 17px;
+}
+
+nav ul left-bar{
+    float: left;
+    margin-left: 20px;
 }
