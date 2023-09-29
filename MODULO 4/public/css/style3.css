@@ -4,29 +4,48 @@
 }
 body{
     font-size: 'roboto', sans-serif;
+    background-color: #C0C0C0;
+    background-image: url(/img/fondo.jpg);
 }
 .main-header{
+    display: block;
     background-color: #EAC926;
-    padding: 20px
+    padding: 10px
 }
 .main-header-top-bar{
-    width: 200px;
+    width: 160px;
+    position: relative;
+    right: -10%;
 }
+
 .copy-header{
     display: flex;
-    font-size: 19px;
+    font-size: 18px;
+    font-weight: normal;
     text-align: right;
     vertical-align: middle;
     line-height: 25px;
     position: absolute;
-    top:20px;
-    right: 35px;
+    top:10px;
+    right: -600%;
 }
-i.fa-solid{
+.hamburguer-button{
+    display: none;
+}
+.copy-header .fa-solid.fa-hand-holding-dollar{
     display: inline-block;
     vertical-align: top;
     position: absolute;
     left: -30px;
+}
+.main-navbar .fa-solid.fa-address-card{
+    font-size: 12px;
+}
+.main-navbar .fa-right-to-bracket{
+    font-size: 12px;
+}
+.main-navbar .fa-solid.fa-basket-shopping{
+    font-size: 12px;
 }
 .main-navbar ul {
     list-style: none;
@@ -45,22 +64,49 @@ i.fa-solid{
     display: inline-block;
     padding: 5px 0;
     font-size: 17px;
+    padding-right: 20px;
 }
 
 ul.left-bar{
     display: flex;
-    margin-right: 30px;
    position: relative;
-   bottom: -20px;
-   margin: 0 10px;
+   bottom: -10px;
+   left: 8.5%;
+   margin: 0 20px;
+
 }
 ul.right-bar{
     display: flex;
-    margin-right: 30px;
    position: absolute;
-   right: 20px;
-   top:99px;
+   right: 115px;
+   top: 68px;
    margin: 0 10px;
+}
+
+.buscador-form {
+    margin: 20px;
+    display: flex;
+    position: relative;
+    width: 41%;
+    position:absolute;
+    top: -1%;
+    right: 32%
+}
+
+.buscador-form input[type="search"] {
+    border: none;
+    flex-grow: 1;
+    height: 36px;
+}
+
+.buscador-form button.boton-busqueda {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #222222;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -109,5 +155,3 @@ ul.right-bar{
     padding: 5px 0;
     font-size: 17px;
 }*/
-
-
