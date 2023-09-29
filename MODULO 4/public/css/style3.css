@@ -39,13 +39,19 @@ body{
     left: -30px;
 }
 .main-navbar .fa-solid.fa-address-card{
-    font-size: 12px;
+    font-size: 13px;
+    position: relative;
+    top:2px;
 }
 .main-navbar .fa-right-to-bracket{
-    font-size: 12px;
+    font-size: 13px;
+    position: relative;
+    top:2px;
 }
 .main-navbar .fa-solid.fa-basket-shopping{
-    font-size: 12px;
+    font-size: 13px;
+    position: relative;
+    top:0;
 }
 .main-navbar ul {
     list-style: none;
@@ -70,7 +76,7 @@ body{
 ul.left-bar{
     display: flex;
    position: relative;
-   bottom: -10px;
+   bottom: -11px;
    left: 8.5%;
    margin: 0 20px;
 
@@ -78,9 +84,9 @@ ul.left-bar{
 ul.right-bar{
     display: flex;
    position: absolute;
-   right: 115px;
-   top: 68px;
-   margin: 0 10px;
+   right: 78px;
+   top: 66px;
+   margin: 0 11px;
 }
 
 .buscador-form {
@@ -108,6 +114,8 @@ ul.right-bar{
     padding: 0;
     margin: 0;
 }
+
+
 
 
 /*.main-header{
