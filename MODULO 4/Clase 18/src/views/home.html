@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/562ce4fe09.js" crossorigin="anonymous"></script>
     <title>Micro Desafio</title>
 </head>
 <body>
@@ -12,14 +16,11 @@
         <br>
         <form action="" method="post">
         <input type="text" name="buscar" placeholder="  Buscar">
-        <button type="submit" name="enviar"></button>
+        <button id="miButton"><i class="fa-solid fa-magnifying-glass"></i></button>
     </form>
     <br>
         <h4>Comprá en cuotas y sin tarjeta de crédito</h4>
         <br>
-        <a href="#" class="hamburguer-button">
-            <i class="fa-solid fa-bars"></i>
-        </a>
         <nav class="main-navbar">
         <ul>
             <li><a href="#">Ofertas</a></li>
@@ -27,22 +28,27 @@
             <li><a href="#">Vender</a></li>
             <li><a href="#">Ayuda</a></li>
         </ul>
-        
+        <br>
         <ul>
             <li><a href="#">Creá tu cuenta</a></li>
             <li><a href="#">Ingresa </a></li>
             <li><a href="#">Mis compras </i></a></li>
         </ul>
     </nav>
+    <div class="caja">
+        <a href="#" class="hamburguer-button">
+            <i class="fa-solid fa-bars"></i>
+        </a>
+    </div>
     </header>
-    <img src="/img/banner.jpg" alt="banner" width="300">
+    <img src="/img/banner.jpg" alt="banner" width="411px" height="110px">
     <main>
         <br>
-        <section>
-            <h4>Basado en tu última visita</h4>
+        <section class="descripciones">
+            <h4 id="visita">Basado en tu última visita</h4>
             <br>
         <div>
-            <img src="/img/cafetera.jpg" alt="cafetera" width="240">
+            <img id="cafetera" src="/img/cafetera.jpg" alt="cafetera" width="240">
             <p>$6.770     &nbsp;<strong>40% OFF</strong></p>
             <h4>Cafetera Moulinex</h4>
             <br>
@@ -72,7 +78,7 @@
         </section>
         <br>
         <section>       
-            <h4>Ofertas</h4>
+            <h4 id="ofertas">Ofertas</h4>
             <br>
         <div>
             <img src="/img/cafetera.jpg" alt="cafetera" width="200">
