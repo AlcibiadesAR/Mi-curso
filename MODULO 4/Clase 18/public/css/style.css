@@ -6,18 +6,65 @@ body{
     background-color: #ebebeb;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
+    overflow-x: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-
 header{
     background-color: #EAC926;
+    position: relative;
+    right: 10px;
+    left: 40px;
     height: 300px;
+    width: 500px;
+}
+#logo{
+    position: relative;
+    top: 10px;
+    right: 1px;
+    left: 10px;
+}
+form{
+    position: relative;
+    top:10px;
+    bottom: 30px;
+    right: 10px;
+    left: 10px;
 }
 #miButton{
     border: none;
     cursor: pointer;
 }
+h3{
+    position: relative;
+    top:10px;
+    bottom: 30px;
+    right: 10px;
+    left: 10px;
+}
+#banner{
+    position: relative;
+    top: 2px;
+    bottom: 0px;
+}
 #visitas{
     font-size: 24px;
+    position: relative;
+    top: 10px;
+    bottom: 1px;
+    text-align: center;
+    right: -110px;
+}
+#ofertas{
+    font-size: 24px;
+    position: relative;
+    top: 5px;
+    bottom: 1px;
+    text-align: center;
+    right: -5px;
 }
 .descripciones{
     font-size: 16px;
@@ -28,6 +75,7 @@ header{
     position: relative;
     top: 5px;
     bottom: 45px;
+    align-items: center;
 }
 .caja{
     background-color: #1259c3;
@@ -35,46 +83,46 @@ header{
     height: 13%;
     border-radius: 10%;
     position: relative;
-    left: 43%;
+    right: 5px;
+    left: 170px;
 }
 
-
-section{
-    text-align: center;
-    font-size: 150%;
-}
 p{
     position: relative;
-    top: 140px;
+    top: 70px;
     bottom: 1px;
     text-align: start;
-    right: -10px;
+    right: -11px;
 }
-#cafetera{
-    position: relative;
-    top:80px;
-    bottom: 3px;
-}
+
 div{
     background-color: white;
     color:black;
     text-align: center;
-    width: 90%;
-    height: 450px;
-    position: relative;
-    left: 5%;
+    width: 330px;
+    height: 340px;
     font-size: 80%;
+    position: relative;
+    right: -100px;
+    left: -20px;
+
 }
 strong{
     color: #39b54a;
 }
-h4{
+h5{
     position: relative;
-    top: 150px;
+    top: 80px;
     bottom: 1px;
     text-align: start;
     right: -10px;
 }
+img{
+    position: relative;
+    bottom: 10px;
+    top: 40px;
+}
+
 
 
 
