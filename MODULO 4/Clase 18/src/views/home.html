@@ -3,113 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-<script src="https://kit.fontawesome.com/562ce4fe09.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" type= "text/css", href="/css/style.css">
+    <script src="https://kit.fontawesome.com/562ce4fe09.js" crossorigin="anonymous"></script>
     <title>Micro Desafio</title>
 </head>
 <body>
     <header>
-        <img id="logo" src="/img/mercadoliebre.svg" alt="logo" width="200">
+        <img src="img/mercadoliebre.svg" alt="logo" width="200">
         <br>
         <form action="" method="post">
         <input type="text" name="buscar" placeholder="  Buscar">
-        <button id="miButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
     </form>
-    <br>
-        <h3>
-            <i class="fa-solid fa-hand-holding-dollar"></i>
-            Comprá en cuotas y sin tarjeta de crédito
-        </h3>
-        <br>
-        <nav class="main-navbar">
+        <h4>Comprá en cuotas y sin tarjeta de crédito</h4>
         <ul>
             <li><a href="#">Ofertas</a></li>
             <li><a href="#">Tiendas Oficiales</a></li>
             <li><a href="#">Vender</a></li>
             <li><a href="#">Ayuda</a></li>
         </ul>
-        <br>
-        <ul class="lista">
-            <li><a href="#">Creá tu cuenta&nbsp;<i class="fa-solid fa-address-card fa-xs"></i></a></li>
-            <li><a href="#">Ingresa&nbsp; <i class="fa-solid fa-right-to-bracket fa-xs"></i></a></li>
-            <li><a href="#">Mis compras&nbsp;<i class="fa-solid fa-basket-shopping fa-xs"></i></a></li>
+        
+        <ul>
+            <li><a href="#">Creá tu cuenta</a></li>
+            <li><a href="#">Ingresa </a></li>
+            <li><a href="#">Mis compras </i></a></li>
         </ul>
-    </nav>
-    <div class="caja">
-        <a href="#" class="hamburguer-button">
-            <i class="fa-solid fa-bars"></i>
-        </a>
-    </div>
     </header>
-    <img id="banner" src="/img/banner.jpg" alt="banner" width="421px" height="110px">
+    <img src="/img/banner.jpg" alt="banner" width="300">
     <main>
-        <br>
-        <section class="descripciones">
-            <h4 id="visita">Basado en tu última visita</h4>
-            <br>
-        <div>
+        <section>
+            <h4>Basado en tu última visita</h4>
             <img src="/img/cafetera.jpg" alt="cafetera" width="200">
-            <p>$6.770     &nbsp;<strong>40% OFF</strong></p>
-            <h5>Cafetera Moulinex</h5>
-            <br>
-        </div>
-        <br>
-    <div>  
+            <p>$6.770</p>
+            <p>40% OFF</p>
+            <h4>Cafetera Moulinex</h4>
             <img src="/img/macbook.jpg" alt="macbook" width="200">
-            <p>$230.000   &nbsp;<strong>20% off</strong></p>
-            <h5>MacBook Pro 2019</h5>
-            <br>
-        </div>
-        <br>
-    <div>
+            <p>$230.000</p>
+            <p>20% off</p>
+            <h4>MacBook Pro 2019</h4>
             <img src="/img/s10.jpg" alt="s10" width="200">
-            <p>$70.500   &nbsp;<strong>10%off</strong></p>
-            <h5>Samsung Galaxy S10</h5>
-            <br>
-        </div>
-        <br>
-    <div>
+            <p>$70.500</p>
+            <p>10% off</p>
+            <h4>Samsung Galaxy S10</h4>
             <img src="/img/smart.jpg" alt="smart" width="200">
-            <p>$23.200   &nbsp;<strong>5% off</strong></p>
-            <h5>SmartTv Samsung 43</h5>
-            <br>
-        </div>
-        <br>
+            <p>$23.200</p>
+            <p>5% off</p>
+            <h4>SmartTv Samsung 43</h4>
         </section>
         <br>
-        <section>       
-            <h4 id="ofertas">Ofertas</h4>
-            <br>
-        <div>
+        <section>
+            <h4>Ofertas</h4>
             <img src="/img/cafetera.jpg" alt="cafetera" width="200">
-            <p>$6.770  &nbsp;<strong>40% OFF</strong></p>
-            <h5>Cafetera Moulinex</h5>
-            <br>
-        </div>
-        <br>
-    <div>
+            <p>$6.770</p>
+            <p>40% OFF</p>
+            <h4>Cafetera Moulinex</h4>
             <img src="/img/macbook.jpg" alt="macbook" width="200">
-            <p>$230.000   &nbsp;<strong>20% off</strong></p>
-            <h5>MacBook Pro 2019</h5>
-            <br>
-        </div>
-        <br>
-    <div>
+            <p>$230.000</p>
+            <p>20% off</p>
+            <h4>MacBook Pro 2019</h4>
             <img src="/img/s10.jpg" alt="s10" width="200">
-            <p>$70.500 &nbsp;<strong>10% off</strong></p>
-            <h5>Samsung Galaxy S10</h5>
-            <br>
-        </div>
-        <br>
-    <div>
+            <p>$70.500</p>
+            <p>10% off</p>
+            <h4>Samsung Galaxy S10</h4>
             <img src="/img/smart.jpg" alt="smart" width="200">
-            <p>$23.200 <strong>&nbsp;5% off</strong></p>
-            <h5>SmartTv Samsung 43</h5>
-            <br>
-        </div>
+            <p>$23.200</p>
+            <p>5% off</p>
+            <h4>SmartTv Samsung 43</h4>
         </section>
     </main>
     <br>
