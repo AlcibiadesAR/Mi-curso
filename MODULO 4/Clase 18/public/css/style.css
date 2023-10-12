@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 12px;
 }
 
 header {
@@ -13,12 +14,12 @@ header {
 }
 
 ul {
-    list-style: none;
     display: flex;
-}
-
-ul li {
-    margin-right: 20px;
+    flex-direction: column;
+    margin-top: 0;
+    padding: 2px;
+    list-style-type: none;
+    cursor: pointer;
 }
 
 ul li a {
@@ -34,12 +35,16 @@ form {
     border-radius: 5px;
 }
 
-form input[type="text"] {
+form input {
     border: none;
     outline: none;
     font-size: 16px;
 }
-
+.fa-hand-holding-dollar{
+    position: relative;
+    border-top: -50px;
+    top: -2px;
+}
 form button {
     background: none;
     border: none;
@@ -49,8 +54,20 @@ form button {
     color: #03264C;
 }
 
-.burger-menu {
-    display: none;
+.burger-menu{
+    background-color:#1259c3;
+    width: 3%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+}
+.burger-menu i{
+    color: #FFF;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main {
