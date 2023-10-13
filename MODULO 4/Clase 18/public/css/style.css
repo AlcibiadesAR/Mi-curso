@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
+    background-color: #ebebeb;
 }
 
 header {
@@ -20,6 +21,7 @@ ul {
     padding: 2px;
     list-style-type: none;
     cursor: pointer;
+    color: #03264C;
 }
 
 ul li a {
@@ -56,11 +58,13 @@ form button {
 
 .burger-menu{
     background-color:#1259c3;
-    width: 3%;
-    height: 10%;
+    width: 35px;
+    height: 34px;
     display: flex;
     justify-content: center;
     padding: 3px;
+    border-radius: 4px;
+    align-self: center;
 }
 .burger-menu i{
     color: #FFF;
@@ -74,8 +78,24 @@ main {
     padding: 20px;
 }
 
-section {
-    margin-bottom: 40px;
+section img{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.banner{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+section div{
+    margin-bottom: 10px;
+    padding: 30px;
+    display: flex;
+    background-color: #FFF;
+    flex-direction: column;
+    text-align: start;
+    line-height: 0px;
 }
 
 footer {
@@ -99,3 +119,30 @@ footer p {
     font-size: 2em;
     margin-bottom: 10px;
 }
+#ofertas{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#visita{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+section p{
+    font-size: 18px;
+}
+section h4{
+    font-size: 16px;
+}
+strong{
+    font-size: 16px;
+    color: #39b54a;
+    padding: 10px;
+}
+
+
