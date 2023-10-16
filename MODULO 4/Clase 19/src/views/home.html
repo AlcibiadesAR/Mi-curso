@@ -21,22 +21,26 @@
         <input type="text" name="buscar" placeholder="  Buscar">
         <button><i class="fa-solid fa-magnifying-glass"></i></button>
     </form>
-        <h4><i class="fa-solid fa-hand-holding-dollar"></i> Comprá en cuotas y sin tarjeta de crédito</h4>
-        <ul>
-            <li><a href="#">Ofertas</a></li>
-            <li><a href="#">Tiendas Oficiales</a></li>
-            <li><a href="#">Vender</a></li>
-            <li><a href="#">Ayuda</a></li>
-        </ul>
-        
-        <ul>
-            <li><a href="#">Creá tu cuenta <i class="fa-solid fa-address-card fa-xs"></i></a></li>
-            <li><a href="#">Ingresa <i class="fa-solid fa-right-to-bracket fa-xs"></i></a></li>
-            <li><a href="#">Mis compras <i class="fa-solid fa-basket-shopping fa-xs"></i></a></li>
-        </ul>
+        <h4 class="compra"><i class="fa-solid fa-hand-holding-dollar"></i> Comprá en cuotas y sin tarjeta de crédito</h4>
+        <input class="checkbox" type="checkbox" id="menu-toggle">
         <div class="burger-menu">
-            <i class="fas fa-bars"></i>
+            <label for="menu-toggle">
+                <i id="hamburguer" class="fas fa-bars"></i>
+                <i class="fa-solid fa-x fa-xs" style="color: #1b1c1d;"></i>
+            </label>
+            <div class="lista">
+                <ul>
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Tiendas Oficiales</a></li>
+                    <li><a href="#">Vender</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                    <br>
+                    <li><a href="#">Creá tu cuenta <i class="fa-solid fa-address-card fa-xs"></i></a></li>
+                    <li><a href="#">Ingresa <i class="fa-solid fa-right-to-bracket fa-xs"></i></a></li>
+                    <li><a href="#">Mis compras <i class="fa-solid fa-basket-shopping fa-xs"></i></a></li>
+                </ul>
             </div>
+        </div>        
     </header>
     <div class= "banner" >
     <img src="/img/banner.jpg" alt="banner" width="100%">
@@ -45,50 +49,111 @@
         <section>
             <h4 id="visita">Basado en tu última visita</h4>
             <div>
-            <img src="/img/cafetera.jpg" alt="cafetera" width="200">
+                <div class="caja1">
+            <img src="/img/cafetera.jpg" alt="cafetera" width="200" height="250">
         </div>
-            <div>
-            <p>$6.770<p>
-            </p><strong>40% OFF</strong></p>
-            <h4>Cafetera Moulinex</h4>
+            <div class="caja2">
+                <div id="truck">
+                <i class="fa-solid fa-truck" style="color: #42a540;"></i>
+            </div>
+                <p class="p1">$6.770<p>
+                <p class="p2-coffe"><strong>40% OFF</strong></p>
+                <h4 class="h4">Cafetera Moulinex</h4>
+            </div>
         </div>
         <div>
-            <img src="/img/macbook.jpg" alt="macbook" width="200">
-            <p>$230.000 <strong>20% off</strong></p>
-            <h4>MacBook Pro 2019</h4>
+            <div class="caja1">
+        <img src="/img/macbook.jpg" alt="macbook" width="200" height="250">
+    </div>
+        <div class="caja2">
+            <div id="truck">
+            <i class="fa-solid fa-truck" style="color: #42a540;"></i>
         </div>
-        <div>
-            <img src="/img/s10.jpg" alt="s10" width="200">
-            <p>$70.500 <strong>10% off</strong></p>
-            <h4>Samsung Galaxy S10</h4>
+        <p class="p1">$230.000 </p>
+        <p class="p2-mac"><strong>20% off</strong></p>
+        <h4 class="h4">MacBook Pro 2019</h4>
         </div>
-            <div>
-            <img src="/img/smart.jpg" alt="smart" width="200">
-            <p>$23.200 <strong>5% off</strong></p>
-            <h4>SmartTv Samsung 43</h4>
+    </div>
+    <div>
+            <div class="caja1">
+            <img src="/img/s10.jpg" alt="s10" width="200" height="250">
+            </div>
+            <div class="caja2">
+                <div id="truck">
+                <i class="fa-solid fa-truck" style="color: #42a540;"></i>
+            </div>
+            <p class="p1">$70.500 </p>
+            <p class="p2-galaxy"><strong>10% off</strong></p>
+            <h4 class="h4">Samsung Galaxy S10</h4>
+        </div>
+    </div>
+         <div>
+                <div class="caja1">
+                    <img src="/img/smart.jpg" alt="smart" width="200" height="250">
+        </div>
+            <div class="caja2">
+                <div id="truck">
+                <i class="fa-solid fa-truck" style="color: #42a540;"></i>
+            </div>
+            <p class="p1">$23.200 </p>
+            <p class="p2-smart"><strong>5% off</strong></p>
+            <h4 class="h4">SmartTv Samsung 43</h4>
+            </div>
         </div>
         </section>
         <section>
             <h4 id="ofertas">Ofertas</h4>
+            <div>
+                <div class="caja1">
+            <img src="/img/cafetera.jpg" alt="cafetera" width="200" height="250">
+        </div>
+            <div class="caja2">
+                <div id="truck">
+                <i class="fa-solid fa-truck" style="color: #42a540;"></i>
+            </div>
+                <p class="p1">$6.770<p>
+                <p class="p2-coffe"><strong>40% OFF</strong></p>
+                <h4 class="h4">Cafetera Moulinex</h4>
+            </div>
+        </div>
         <div>
-            <img src="/img/cafetera.jpg" alt="cafetera" width="200">
-            <p>$6.770 <strong>40% OFF</strong></p>
-            <h4>Cafetera Moulinex</h4>
+            <div class="caja1">
+        <img src="/img/macbook.jpg" alt="macbook" width="200" height="250">
+    </div>
+        <div class="caja2">
+            <div id="truck">
+            <i class="fa-solid fa-truck" style="color: #42a540;"></i>
         </div>
-    <div>
-            <img src="/img/macbook.jpg" alt="macbook" width="200">
-            <p>$230.000 <strong>20% off</strong></p>
-            <h4>MacBook Pro 2019</h4>
+        <p class="p1">$230.000 </p>
+        <p class="p2-mac"><strong>20% off</strong></p>
+        <h4 class="h4">MacBook Pro 2019</h4>
         </div>
+    </div>
     <div>
-            <img src="/img/s10.jpg" alt="s10" width="200">
-            <p>$70.500 <strong>10% off</strong></p>
-            <h4>Samsung Galaxy S10</h4>
+            <div class="caja1">
+            <img src="/img/s10.jpg" alt="s10" width="200" height="250">
+            </div>
+            <div class="caja2">
+                <div id="truck">
+                <i class="fa-solid fa-truck" style="color: #42a540;"></i>
+            </div>
+            <p class="p1">$70.500 </p>
+            <p class="p2-galaxy"><strong>10% off</strong></p>
+            <h4 class="h4">Samsung Galaxy S10</h4>
         </div>
-    <div>
-            <img src="/img/smart.jpg" alt="smart" width="200">
-            <p>$23.200 <strong>5% off</strong></p>
-            <h4>SmartTv Samsung 43</h4>
+    </div>
+         <div>
+                <div class="caja1">
+                    <img src="/img/smart.jpg" alt="smart" width="200" height="250">
+        </div>
+            <div class="caja2">
+                <div id="truck">
+                <i class="fa-solid fa-truck" style="color: #42a540;"></i>
+            </div>
+            <p class="p1">$23.200 </p>
+            <p class="p2-smart"><strong>5% off</strong></p>
+            <h4 class="h4">SmartTv Samsung 43</h4>
+            </div>
         </div>
         </section>
     </main>
