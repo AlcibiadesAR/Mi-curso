@@ -12,23 +12,15 @@ header {
     flex-direction: column;
     align-items: flex-start;
 }
-.compra{
+#compra{
     display: flex;
-    position: relative;
-    right: -60px;
+    align-self: center;
 }
-#hamburguer{
-    display: flex;
-    background-color: #1259c3; 
-    width: 35px;
-    height: 33px;
+.fa-hand-holding-dollar{
     position: relative;
-    right: -135px;
-    bottom: 0;
-    font-size: 30px;
-    padding: 5px 2px 5px 10px;
-    border-radius: 5px;
-    align-items: center;
+    border-top: -50px;
+    top: -1px;
+    right: 6px;
 }
 form {
     display: flex;
@@ -43,12 +35,7 @@ form input {
     outline: none;
     font-size: 16px;
 }
-.fa-hand-holding-dollar{
-    position: relative;
-    border-top: -50px;
-    top: -1px;
-    right: 6px;
-}
+
 form button {
     background: none;
     border: none;
@@ -195,15 +182,34 @@ footer i{
         color: #03264C;
         text-decoration: none;
         margin-left: -30px;  }
+    #hamburguer{
+        display: none;
+    }
+    header h4{
+       margin-left: 10px;
+    }
 }
 
-@media screen and (max-width: 362px){
+@media screen and (max-width: 360px){
     ul{
         display: none;
     }
     ul li a{
         display: none;
     }
+    #hamburguer{
+    display: flex;
+    background-color: #1259c3; 
+    width: 35px;
+    height: 33px;
+    position: relative;
+    right: -135px;
+    bottom: 0;
+    font-size: 30px;
+    padding: 5px 2px 5px 10px;
+    border-radius: 5px;
+    align-items: center;
+}
 }
 
 
