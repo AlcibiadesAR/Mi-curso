@@ -12,8 +12,6 @@ header {
     flex-direction: column;
     align-items: flex-start;
 }
-
-
 #hamburguer{
     display: flex;
     background-color: #1259c3; 
@@ -52,7 +50,12 @@ form button {
 main {
     padding: 20px;
     width: 90%;
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
 }
+
+
 section img{
     display: flex;
     padding: 10px;
@@ -72,8 +75,8 @@ section div{
     display: flex;
     background-color: #ebebeb;
     flex-direction: column;
-    text-align: start;
     line-height: 0px;
+
 }
 
 footer {
@@ -113,28 +116,14 @@ footer p {
     justify-content: center;
     
 }
-.p2-coffe{
-    margin-top: -20px;
-}
-.p2-mac{
-    margin-top: 3px;
-}
-.p2-galaxy{
-    margin-top: 8px;
-}
-.p2-smart{
-    margin-top: 10px;
-}
+
 .p1{
-    margin-top: -39px;
     font-size: 18px;
     font-weight: bold;
+    width: 30%;
 }
-.h4{
-    font-size: 16px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    font-size: 16px;
+.p2{
+    width: 70%;
 }
 
 section h4{
@@ -153,32 +142,60 @@ footer i{
     border-width: 10px;
     display: flex;
     align-items: center;
-    border: 15px
+    border: 15px;
 }
 .caja2{
     background-color: white;
-    border-width: 10px;
+    border-width: 20px;
     display: flex;
     align-items: start;
-    margin-top: -8px;
+    margin-top: -8px ;
     margin-bottom: 0px;
     padding-left: 15px;
     border: solid 1px #ebebeb;
-    border: 15px
+    border: 5px;
 }
-#truck{
+
+.caja2 .truck{
+    display: flex;
+    margin-right: 12px;
+    font-size: 10px;
+}
+.truck {
+    display: flex;
+    align-self: end;
     border-radius: 50%;
     padding: 10px;
     padding-bottom: -40px;
-    padding-right: 10px;
+    padding-right: 8px;
     border: solid 1px #39b54a;
-    margin-top: 15px;
+    margin-top: -20px;
     margin-bottom: 50px;
     overflow: hidden;
     background-color: #FFF;
 }
+.caja2 div p {
+    display: inline;
+    margin-right: 50px;
+    padding-bottom: 50px;
+}
+.parrafo{
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    background-color: #FFF;
+}
+
 
 @media screen and (min-width: 361px){
+    header img{
+        width: 50%;
+    }
+
+    main{
+        margin-bottom: 15px;
+    }
     ul{
         list-style: none;
         color: #03264C;
@@ -193,7 +210,13 @@ footer i{
     header h4{
        margin-left: 10px;
     }
+    .contenedor1{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
+.contenedor2{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
 #compra{
     display: flex;
     align-self: center;
@@ -204,7 +227,34 @@ footer i{
     top: -1px;
     right: 6px;
 }
-
+.contenedor1 img, .contenedor2 img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 10px ;
+}
+section .contenedor1,.contenedor2{
+    display: inline-block;
+    width: calc(50% - 20px);
+    vertical-align: top; 
+    box-sizing: border-box; 
+    margin-inline-start:2px;
+    padding: auto;
+    margin-right: 16px;
+}
+.caja2 div p {
+    display: inline;
+    margin-right: 2px;
+    padding-bottom: 2px;
+    font-size: 15px;
+}
+strong{
+    font-size: 13px;
+}
+.h4{
+    font-size: 12px;
+}
+}
 @media screen and (max-width: 360px){
     ul{
         display: none;
@@ -225,8 +275,84 @@ footer i{
     border-radius: 5px;
     align-items: center;
 }
+.h4{
+   opacity: 0;
 }
 
+}
+@media screen and (min-width: 761px) {
+    main{
+        margin-bottom: 15px;
+        margin-left: 10px;
+    }
+    #visita{
+        margin-left: -360px;
+    }
+    #ofertas{
+        margin-left: -560px;
+    }
+    ul{
+        list-style: none;
+        color: #03264C;
+    }
+    ul li a{
+        color: #03264C;
+        text-decoration: none;
+        margin-left: -30px;  }
+    #hamburguer{
+        display: none;
+    }
+    header h4{
+       margin-left: 10px;
+    }
+    .contenedor1{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+.contenedor2{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+#compra{
+    display: flex;
+    align-self: center;
+}
+.fa-hand-holding-dollar{
+    position: relative;
+    border-top: -50px;
+    top: -1px;
+    right: 6px;
+}
+.contenedor1 img, .contenedor2 img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+section .contenedor1,.contenedor2{
+    display: inline-block;
+    width: calc(20% - 0px);
+    vertical-align: top; 
+    box-sizing: border-box; 
+    margin-inline-start:2px;
+    padding: auto;
+    margin-right: 28px;
+    justify-content: center;
+}
+.caja2 div p {
+    display: inline;
+    margin-right: 2px;
+    padding-bottom: 2px;
+    font-size: 15px;
+}
+strong{
+    font-size: 13px;
+}
+.h4{
+    font-size: 12px;
+}
+.truck{
+    font-size: 5px;
+}
+}
 
 
 
