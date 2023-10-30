@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro de Usuario</title>
+  </head>
+  <body>
+    <h1>Registro</h1>
+    <form action="/cuentas" method="post" enctype="multipart/form-data">
+    <label for="Nombre y apellido"> Nombre y apellido:</label>
+    <input type="text" name="Nombre y apellido" id="Nombre y apellido" />
+    <br />
+    <label for=""> Nombre de usuari@:</label>
+    <input type="text" name="Nombre de usuari@" id="Nombre de usuari@" />
+    <br />
+    <label for="Email"> Email:</label>
+    <input type="text" name="Email" id="Email" />
+    <br />
+    <label for="Fecha de nacimiento"> Fecha de nacimiento: </label>
+    <input type="date" name="Fecha de nacimiento" id="Fecha de nacimiento" />
+    <br />
+    <label for="Domicilio"> Domicilio:</label>
+    <input type="text" name="Domicilio" id="Domicilio" />
+    <br />
+    <label for="Perfil del usuario">Perfil del usuario:</label><br />
+    <input type="radio" id="Vender" name="Vender"> Vender<br />
+    <input type="radio" id="Comprar" name="Comprar"> Comprar <br />
+    <br />
+    <label for="Categorías de interés">Categorías de interés:</label><br />
+    <input type="checkbox" id="Electro" name="Electro">Electro<br />
+    <input type="checkbox" id="Moda" name="Moda">Moda<br />
+    <input type="checkbox" id="Hogar" name="Hogar">Hogar<br />
+    <input type="checkbox" id="Juguetería" name="Juguetería">Juguetería<br />
+    <input type="checkbox" id="Vida sana" name="Vida sana">Vida sana<br />
+    <br />
+    <label for="foto">Selecciona tu foto de usuario:</label>
+    <input type="file" id="foto" name="foto" accept="image/*" required />
+    <br />
+    <label for="Contraseña"> Contraseña:</label>
+    <input type="password" name="Contraseña" id="Contraseña" maxlength="10"/>
+    <br />
+    <label for="Confirmar contraseña"> Confirmar contraseña:</label>
+    <input type="password" name="Confirmar contraseña" id="Confirmar contraseña" maxlength="10" />
+    <br />
+    <button type="submit" name="Enviar">Enviar</button> 
+    <button type="reset" name="Borrar">Borrar</button> 
+</form>
+  </body>
+</html>
+
