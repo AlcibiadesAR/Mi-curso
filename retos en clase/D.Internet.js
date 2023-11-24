@@ -122,3 +122,9 @@ function contarNumeros(numero){
 
 contarNumeros(8)
 contarNumeros(7)
+
+const determinarNumero = (numero) => { 
+    let resultado = numero > 0 ? `El número ${numero} es positivo` : `El número ${numero} es negativo`;
+  return resultado;
+}
+console.log(determinarNumero(9));

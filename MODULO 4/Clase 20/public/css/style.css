@@ -3,6 +3,7 @@ body {
     font-size: 12px;
     background-color: #ebebeb;
     text-align: center;
+    margin: 0;
 }
 
 header {
@@ -10,43 +11,22 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 15px 20px;
     flex-direction: column;
     align-items: flex-start;
+    padding-bottom: 90px;
 }
 
-
-#hamburguer{
-    display: flex;
-    background-color: #1259c3; 
-    width: 35px;
-    height: 33px;
-    position: relative;
-    right: -135px;
-    bottom: 0;
-    top:-10px;
-    font-size: 30px;
-    padding: 5px 2px 5px 10px;
-    border-radius: 5px;
-    align-items: center;
-}
-.contenedor-logo {
-    width: 50%;
-}
 .buscador-form {
     display: flex;
     align-items: center;
     background-color: #FFF;
     padding: 10px;
-    margin-left: 20px;
-    padding-right: 5px;
-    padding-left: 1px;
     border-radius: 5px;
-    position: relative;
-    top: -40px;
-    bottom: 30px;
-    left: 130px;
-    width: 50%;
+    position: absolute;
+    left: 260px;
+    right: -60px;
+    transform: translateX(-50%);
 }
 
 .buscador-input {
@@ -204,19 +184,24 @@ footer i{
 
 
 
-@media screen and (max-width: 360px){
-
+@media (min-width: 360px) and (max-width: 480px){
+    .buscador-form{
+        position: absolute;
+        top: 43px;
+        right: 20px;
+        left: 180px;
+        transform: translatey(-50%);
+    }
     .contenedor-logo {
-        width: 10%;
-        box-sizing: border-box;
+    width: 10%;
+    box-sizing: border-box;
     margin-right: auto;
     padding-left: -12px;
     margin-left: -5px;
     }
-.buscador-form{
-    padding-right: -10px;
-    padding-left: 13px;
-    margin-right: 15px;
+    
+#lupa{
+    display: none;
 }
     ul{
         display: none;
@@ -229,9 +214,10 @@ footer i{
     background-color: #1259c3; 
     width: 35px;
     height: 33px;
-    position: relative;
-    right: -135px;
-    bottom: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 140px;
     font-size: 30px;
     padding: 5px 2px 5px 10px;
     border-radius: 5px;
@@ -244,7 +230,7 @@ footer i{
     display: flex;
     align-self: center;
     position: relative;
-    top: -20px
+    top: 2px;
 }
 .fa-hand-holding-dollar{
     position: relative;
@@ -253,47 +239,81 @@ footer i{
     right: 6px;
 }
 }
-
-
-@media screen and (min-width: 361px){
+@media (min-width: 481px)and (max-width: 760px){
     .contenedor-logo {
-        width: 50%;
-        box-sizing: border-box;
-        width: auto;
+    font-size: 30px;
+    box-sizing: border-box;
     margin-right: auto;
-    margin-left: -5px;
+    margin-left: -1px;
+    margin-top: -10px;
     }
     .buscador-form{
-        padding-right: -10px;
-        padding-left: 13px;
-        margin-right: 15px;
+        position: absolute;
+        top: 40px;
+        right: 60px;
+        left: 220px;
+        transform: translatey(-20%);
     }
-
     #compra{
         display: flex;
         align-self: center;
-        margin-top: -20px;
+        margin-bottom: -18px;
+        font-size: 15px;
+    }
+    header {
+        padding-bottom: 60px;
+    }
+    
+    header img{
+        margin-right: 40px;
+        margin-left: -65px;
+        margin-top: 20px;
+        width: 70%;
     }
    
     main{
         margin-bottom: 15px;
     }
-    ul{
+
+    .listas{
+        display: flex;
+        justify-content: space-around;
+    }
+    .left-bar, .right-bar{
         list-style: none;
-        color: #03264C;
-        text-align: start;
+        padding: 0;
+        margin: 0;
     }
-    ul li a{
-        color: #03264C;
+
+    .left-bar li, .right-bar li {
+    display: inline-block;
+    margin-right: 2px;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    }
+    .left-bar li a, .right-bar li a{
         text-decoration: none;
-        margin-left: -40px;
-    }
+        font-size: 11.2px;
+        color: #03264C;
+        font-weight: bold;
+        padding-right: 1px;
+        } 
+        .left{
+            position: absolute;
+            left: 20px;
+        }
+        .right{
+            position: absolute;
+            right: 20px;
+        }
     #hamburguer{
         display: none;
     }
     header h4{
        margin-left: 10px;
     }
+   
     .contenedor1{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
@@ -333,35 +353,28 @@ strong{
 
 
 
-@media screen and (min-width: 761px) {
-    .left{
-        display: inline-block;
-        justify-content: flex-start;
-    }
-    .right{
-        display: inline-block;
-        justify-content: flex-end;
-    }
-    .contenedor-logo {
-        width: 50%;
-        box-sizing: border-box;
-        width: auto;
-    margin-right: auto;
-    }
-    .buscador-form{
-        padding-right: -10px;
-        padding-left: 13px;
-        margin-right: 15px;
+@media (min-width: 761px) and (max-width: 1999px){
+    header{
+        margin-bottom: 0;
+        padding-bottom: 60px;
+        margin-top: -15px;
     }
 
-    
-    #compra{
-        display: flex;
-        align-self: center;
-        position: relative;
-        top: -53px;
-        padding-left: 460px;
+    .buscador-form{
+        position: absolute;
+        top: 50px;
+        right: 320px;
+        left: 289px;
+        transform: translatey(-5%);
+        padding-bottom: 5px;
+        padding-top: 6px;
     }
+        #compra{
+            position: absolute;
+            top: 40px;
+            right: 20px;
+            font-size: 14px;
+        }
     .fa-hand-holding-dollar{
         position: relative;
         border-top: -50px;
@@ -379,19 +392,44 @@ strong{
         margin-left: 10px;
     }
     #visita{
-        margin-left: -360px;
+        margin-left: -68%;
+
     }
     #ofertas{
-        margin-left: -560px;
+        margin-left: -84%;
     }
-    ul{
+    .listas{
+        display: flex;
+        justify-content: space-around;
+    }
+    .left-bar, .right-bar{
         list-style: none;
-        color: #03264C;
+        padding: 0;
+        margin: 0;
     }
-    ul li a{
-        color: #03264C;
+
+    .left-bar li, .right-bar li {
+    display: inline-block;
+    margin-right: 2px;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    }
+    .left-bar li a, .right-bar li a{
         text-decoration: none;
-        margin-left: -30px;  }
+        font-size: 13px;
+        color: #03264C;
+        font-weight: bold;
+        padding-right: 20px;
+        } 
+        .left{
+            position: absolute;
+            left: 20px;
+        }
+        .right{
+            position: absolute;
+            right: 20px;
+        }
     #hamburguer{
         display: none;
     }
@@ -437,6 +475,5 @@ strong{
 }
 
 }
-
 
 
