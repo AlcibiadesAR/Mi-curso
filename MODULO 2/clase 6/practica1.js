@@ -2,13 +2,14 @@
 let electrodomésticos = ["licuadora", "estufa", "nevera", "microondas", "arrocera", "lavadora"]
 
 // Ejecutar sobre el array creado las siguientes acciones: Acceder de manera arbitraria a diferentes elementos del array. Recuerda mostrar por la consola los resultados.
+//manera de hacerlo 1
+let indicesAcceso = [0, 1, 2, 3, 4, 5];
 
-let indicesAcceso = [0,1,2,3,4,5]; 
-
-for (let i = 0; i < indicesAcceso.length; i++) {
-  let indiceActual = indicesAcceso[i];
-  console.log(`Elemento en el índice ${indiceActual},:` +" "+ electrodomésticos[indiceActual]);
+for (let indiceActual of indicesAcceso) {
+  console.log(`Elemento en el índice ${indiceActual}: ${electrodomésticos[indiceActual]}`);
 }
+// manera de hacerlo 2
+console.log(`Elemento en el índice 0 es: `+ electrodomésticos[0])
 
 // Extraer el primer elemento del array y agregarlo al final del mismo.
 let miArray1 = electrodomésticos.shift();

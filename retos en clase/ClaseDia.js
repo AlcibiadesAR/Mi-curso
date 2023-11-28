@@ -56,3 +56,5 @@ function cantidadCaracteres2(cad1,cad2){
 }
 console.log(operacionConStrings('hola', 'que lindo día ',concatenacion));
 console.log(operacionConStrings('hola', 'que lindo día',cantidadCaracteres2));
+
+//array

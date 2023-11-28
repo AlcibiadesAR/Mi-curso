@@ -1,12 +1,11 @@
 // paso 1
-
 let peliculas = ["Turno de día", "30 noches con mi ex", "Bestia", "El monte", "Top gun maverick", "Elvis", "Thor: amor y trueno"];
 
 let peliculaMasVendida = peliculas.pop();
 
-let convertirAMayusculas = (texto) => texto.toUpperCase();
 
-peliculas.unshift(convertirAMayusculas(peliculaMasVendida));
+
+let convertirAMayusculas = (texto) => texto.toUpperCase();peliculas.unshift(convertirAMayusculas(peliculaMasVendida));
 console.log(peliculas);
 
 // paso 2
