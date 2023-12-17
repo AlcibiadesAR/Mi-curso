@@ -1,3 +1,4 @@
+ 
 const bicicletasArray = require('./datosBici'); // Importa el array de bicicletas desde datosBici.js
 
 const dhBici = {

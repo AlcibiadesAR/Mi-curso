@@ -43,7 +43,7 @@ while (drinkCoffee < 10) {
   if (drinkCoffee === 8) { break }
   if (drinkCoffee === 5) { continue }
 
-  console.log('Café☕')
+  console.log('café☕')
 }
 // Bucle con Do while
 let repartirSoda = 0
@@ -227,4 +227,64 @@ let pedidosOriginal = ['cliente1','arroz con pollo', 'sopa', 'spaguetti']
 pedidosOriginal[0] = 'Maria'
 let pedidosProcesado = procesarPedido(pedidosOriginal)
 console.log(pedidosProcesado);
+
+//Iteración de Arrays en JavaScript
+//con while
+let frutas1 = ['🍎', '🍌', '🍓']
+let i = 0 
+while (i < frutas1.length) {
+  console.log(frutas1[i]) 
+  i++ 
+}
+// con for
+let frutas2 = ['🍎', '🍐', '🍓','🍉']
+for (let i = 0; i < frutas2.length; i++ ){
+  console.log(frutas2[i]);
+}
+// con for inverso
+let frutas3 = ['🍎', '🍌', '🍓']
+for (let i = frutas3.length - 1; i >= 0; i--) {
+  console.log(frutas3[i]) 
+}
+
+// for of
+let mediosDeTransporte = ['🚗','🛩️','🚅','🚁','🚢','🚕','🚌','🚲']
+for(transporte of mediosDeTransporte ){
+  console.log(transporte);
+}
+
+// forEach()
+mediosDeTransporte.forEach((e) => {console.log('Agarra un '+ e )});
+
+// ejercicio practico
+//metodo 1
+function sumarPares(numeros) {
+  let suma = 0
+  // tu código aquí
+  for(let i = 0; i < numeros.length; i++ ){
+    if(numeros[i] % 2 == 0){
+      suma += numeros[i]
+    }
+  }
+  return suma
+}
+let array1 = [1,2,3,4,5,6]
+console.log(sumarPares(array1));
+
+//metodo 2
+function sumarPares(numeros) {
+  let suma = 0
+  // tu código aquí
+   for (const numero of numeros) {
+    if (numero % 2 === 0) {
+      suma += numero;
+    }
+  } 
+  return suma
+}
+let array2 = [2,2,5,5,4]
+console.log(sumarPares(array2));
+
+
+
 

@@ -6,7 +6,7 @@ function mostrarSiguientesNumeros(numero) {
       console.log(i);
     }
   }
-  const numeroEjemplo = 4;
+  const numeroEjemplo = 5;
   mostrarSiguientesNumeros(numeroEjemplo);
   console.log("\n")
 
@@ -30,7 +30,7 @@ console.log(`La sumatoria de los números entre 0 y 100 es: ${sumatoria}`);
 
 console.log("\n")
 
-// paso 3
+// paso 4
 let cadenaDeTexto = texto => texto.toUpperCase();
 
 let convertirMayuscula = cadenaDeTexto("practicando el uso de los ciclos o bucles")
@@ -38,7 +38,7 @@ let convertirMayuscula = cadenaDeTexto("practicando el uso de los ciclos o bucle
 console.log(convertirMayuscula)
 console.log("\n")
 
-// paso 4
+// paso 5
 function contarNumeroPares(array) {
     let total = 0;
     for (i = 0; i < array.length; i++){

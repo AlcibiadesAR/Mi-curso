@@ -33,7 +33,7 @@ let MiTexto = (texto) => {
 
 //forma 2
 const ElTexto = (texto) =>{ return (texto.toUpperCase() + ' ' + (texto.length))}
-console.log(ElTexto("Panama"));
+console.log(ElTexto("Panamá"));
   
 function obtenerFechaEnPalabras() {
     // Arrays de días y meses
