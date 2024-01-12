@@ -49,7 +49,7 @@ function listarTodasLasBici() {
     });
 }
 console.log("\nAumento de precios:");
-const bicicletasConAumento = aumentoBici(15); // Aumento del 10%
+const bicicletasConAumento = aumentoBici(15); 
 console.log(bicicletasConAumento);
 
 console.log("\nBicicletas con rodado:");
